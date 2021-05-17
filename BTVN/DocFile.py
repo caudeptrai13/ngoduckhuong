@@ -1,4 +1,4 @@
-f = open("text.txt","r",encoding='utf8')
+f = open("text.txt", "r", encoding='utf8')
 line = f.read()
 x = line.strip(",./ ").split()
 diction = {}
