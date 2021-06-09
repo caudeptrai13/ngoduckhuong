@@ -1,0 +1,7 @@
+gTTS==2.2.2
+keyboard==0.13.5
+pipwin==0.5.1
+playsound==1.2.2
+SpeechRecognition==3.8.1
+requests==2.25.1
+
