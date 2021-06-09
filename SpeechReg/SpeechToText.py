@@ -22,7 +22,7 @@ class SpeechToText:
                 while(True):
                     if keyboard.is_pressed('enter'):
                         break
-                    if keyboard.is_pressed('s'):
+                    if keyboard.is_pressed('S'):
                         sys.exit()
             except sr.RequestError as e:
                 print("Could not request results from Wit.ai service; {0}".format(e))
