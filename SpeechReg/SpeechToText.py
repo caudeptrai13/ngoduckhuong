@@ -1,4 +1,5 @@
 import speech_recognition as sr
+import sys
 import keyboard
 class SpeechToText:
     def __init__(self,lang="en-US"):
@@ -21,6 +22,8 @@ class SpeechToText:
                 while(True):
                     if keyboard.is_pressed('enter'):
                         break
+                    if keyboard.is_pressed('s'):
+                        sys.exit()
             except sr.RequestError as e:
                 print("Could not request results from Wit.ai service; {0}".format(e))
                 print("Press Enter to continue or \"S\" to Stop")
